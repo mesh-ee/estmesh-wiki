@@ -1,0 +1,35 @@
+<!--
+title: About
+description: 
+published: true
+date: 2026-05-07T10:50:33.171Z
+tags: 
+editor: ckeditor
+dateCreated: 2026-04-29T09:13:49.198Z
+-->
+
+<h2><strong>What is Reticulum?</strong></h2>
+<p>Reticulum (RNS) is a cryptographic networking stack — think of it like TCP/IP, but designed to work across wildly different physical layers: HF radio, LoRa, standard TCP/IP, 2.4GHz wireless, and even QR codes. The key components are:</p>
+<p><a href="https://markqvist.github.io/Reticulum/manual/"><strong>RNS</strong></a> — the network stack itself, handling addressing, encryption, and routing<br><a href="https://github.com/liberatedsystems/RNode_Firmware_CE"><strong>RNode</strong></a> — a hardware modem that connects RNS to a physical radio layer<br><a href="https://github.com/markqvist/LXMF"><strong>LXMF</strong></a> — a lightweight messaging protocol that runs over RNS<br><a href="https://github.com/markqvist/nomadnet"><strong>Nomadnet</strong></a> — a client/server app that can host "micron pages," simple hyperlinked pages similar to Teletext<br><a href="https://github.com/lorien/awesome-reticulum"><strong>And many other projects</strong></a></p>
+<h2>Running RNS</h2>
+<p>RNS is written in Python, so it traditionally required a Raspberry Pi or similar machine. The <a href="https://github.com/attermann/microReticulum">microReticulum</a> project by attaman changed this by bringing RNS to microcontrollers (SBCs), and recent updates have added full transport node support — meaning even small, low-power devices can now participate in routing traffic across a network.</p>
+<h2>Limitations to be aware of</h2>
+<p>RNS/LXMF doesn't natively support group messaging in the way apps like Meshtastic, Meshcore etc do. However, you can run a distribution group server that acts as a relay — search for LXMF Distribution Group to get started. It makes sense to run this in the most central location for your mesh as possible.</p>
+<p>For everything else, the official manual is comprehensive and worth reading in full.</p>
+<p>Why would I run this if microreticulum is a thing?<br>You can host the full network stack, host propagation nodes, distribution groups, nomadnet pages. The microreticulum is also very experimental so there may be bugs.</p>
+<p>Quick Start<br>If you already have your RNode and Pi/server ready, paste this command into your terminal:</p>
+<pre><code class="language-plaintext">bash -c "$(wget -qLO - https://raw.githubusercontent.com/Andrew-a-g/rnsd-pi/refs/heads/main/rnsd-pi-setup.sh)"</code></pre>
+<h2>Rnode settings for Estonia</h2>
+<p>Editing config:</p>
+<pre><code class="language-plaintext">nano ~/.reticulum/config</code></pre>
+<pre><code class="language-plaintext">[[RNodeInterface]]
+  type = RNodeInterface
+  interface_enabled = yes
+  port = /dev/ttyACM0 ### path to your device, edit if needed ###
+  frequency = 869500000
+  bandwidth = 125000
+  txpower = 14
+  spreadingfactor = 7
+  codingrate = 5</code></pre>
+<h2>Useful apps</h2>
+<p><a href="https://github.com/torlando-tech/columba">Columba messenger</a> - Android LXMF messenger with Nomdanet support<br><a href="https://github.com/markqvist/Sideband">Sideband</a> - original LXMF messaging app built by Mark Qvist<br><a href="https://github.com/liamcottle/reticulum-meshchat">reticulum-meshchat</a> Windows LXMF client with Nomadnet support<br><a href="https://github.com/ratspeak/ratdeck">ratdeck</a> -standalone Reticulum stack for Lilygo T-deck<br><a href="https://liamcottle.github.io/rnode-flasher/">Rnode Web Flasher</a> -useful for setting up your hardware</p>
