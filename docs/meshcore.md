@@ -1,6 +1,6 @@
 ---
-title: Meshcore
-description: Information about the Meshtastic configurations.
+title: MeshCore
+description: Information about the MeshCore configurations.
 published: true
 date: 2026-06-01T10:18:06.156Z
 tags: 
@@ -8,48 +8,51 @@ editor: markdown
 dateCreated: 2026-01-21T09:32:08.576Z
 ---
 
-# Settings
-## Lora
+# Companion setup
 
-MeshCore is supported in Estonia using the EU/UK (Narrow) preset. No additional regional tuning is required beyond the settings listed below.
+Setup is straightforward if you are using the companion app.
 
-|**Setting**|**Value**|**Info**|
-|---|---|---|
-|Preset|**EU/UK (Narrow)**|Recommended preset for MeshCore operation in Estonia|
-|Frequency|869.618 MHz|Within the EU SRD band|
-|Bandwidth|62.5 kHz|Narrow bandwidth for improved range and reliability|
-|Spreading Factor|8|Balanced range and data rate|
-|Coding Rate|8|Improves robustness in noisy environments|
-|Transmit Power|Device-dependent|Up to **+27 dBm (500 mW ERP)** is permitted|
+**Most important:** for MeshCore in Estonia, use the **EU/UK (Narrow)** preset.
 
-## Repeater / Room server setup
+That preset sets transmit power to **22 dBm**. Your device may allow higher power - check its manual.
 
-Configured over USB using https://config.meshcore.io/
-
-|**Setting**|**Value**|**Info**|
-|---|---|---|
-|Repeater Guest Password|*(Blank)*|Preferred for publicly accessible routers|
-|Room Server Password|*(Blank)* or `hello`|Simple values recommended for ease of access|
-|Location|Aproximate location|Requirement for the repeater to show up in [MeshMapper](/en/docs/meshcore/wardriving)|
-|In console| `set path.hash.mode 1` | This tells the repeater to use 2byte hashes for adverts, avoiding conflicts |
-|Other Settings|Default|No changes required unless you have a specific use case|
+In **Experimental Settings**, set **Default Region Scope** to `ee`. You can override this per channel and add extra scopes if needed.
 
 > 💡 **Tip**
-> Remember to sync the repeater clock after each reboot to ensure proper network operation.
+> MeshMapper also uses **Default Region Scope**, so all packets you send will use it. If you travel, reset it.
 
-## Repeater Key Prefix Collisions
+# Repeater and Room Server setup
 
-Repeater hops are identified by the **first two hexadecimal characters** of their key.  
-This means there are only **255 unique combinations**, so collisions can occur in larger networks.
+These can only be configured over USB with:
+* [config.meshcore.io](https://config.meshcore.io) (use **Console**)
+* [meshcore-cli](https://github.com/meshcore-dev/meshcore-cli)
 
-To reduce the chance of collisions:
-- Check currently used prefixes here:  
-  https://analyzer.letsmesh.net/nodes/prefix-utilization?region=TLL
-- Generate a new key using:  
-  https://gessaman.com/mc-keygen/
+With slight adaptations (`name`, `lat`, `lon`, `region`), the following gives you a well-behaved node:
 
-Choosing a less-used prefix helps improve routing clarity and reduces ambiguity in the mesh.
+```
+set name Endla 10A
+set lat 59.429584
+set lon 24.733158
 
+set radio 869.618,62.5,8,8
+set tx 22
+set dutycycle 10
 
-# Useful Links
+set path.hash.mode 1
+set advert.interval 0
+set flood.advert.interval 24
+region default ee
+
+region put harjumaa
+region put tallinn
+region save
+
+clock sync
+```
+
+> 💡 **Tip**
+> Do `clock sync` after each reboot to ensure proper network operation.
+
+# Useful links
+
 * [Tallinn K-Space Hackerspace MeshCore project documentation](https://wiki.k-space.ee/en/projects/radio/MeshCore)
