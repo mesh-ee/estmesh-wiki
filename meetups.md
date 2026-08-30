@@ -2,7 +2,7 @@
 title: Meetups
 description: 
 published: true
-date: 2026-08-30T08:19:16.509Z
+date: 2026-08-30T08:26:05.513Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-17T18:52:41.900Z
@@ -23,7 +23,7 @@ You’ll meet all kinds of radio hobbyists, including several active **Meshtasti
 
 ## 📅 Event Info
 
-**🕕 Time:** Every Tuesday at 18:00  
+**🕕 Time:** Every TBD ~~Tuesday~~ at 18:00  
 **🏫 Location:** Tallinna Polütehnikum, Room A414 (4th floor)  
 **🚗 Gate phone:** Number is visible on the gate itself.
 `tip: 
