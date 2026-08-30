@@ -2,7 +2,7 @@
 title: Home Page
 description: 
 published: true
-date: 2026-05-29T10:05:12.987Z
+date: 2026-08-30T08:25:34.912Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-17T17:15:43.463Z
@@ -10,6 +10,10 @@ dateCreated: 2025-10-17T17:15:43.463Z
 
 # ESTMesh
 Welcome to the Meshtastic/Meshcore Estonia Wiki! Here, you’ll find helpful information and resources about the Meshtastic/Meshcore community in Estonia.
+
+> Update made to [Meetups](/en/meetups)
+{.is-info}
+
 
 ## Useful Links
 #### Dashboards
