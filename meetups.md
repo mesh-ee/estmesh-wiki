@@ -2,7 +2,7 @@
 title: Meetups
 description: 
 published: true
-date: 2026-06-24T19:19:16.596Z
+date: 2026-08-30T08:19:16.509Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-17T18:52:41.900Z
@@ -10,11 +10,13 @@ dateCreated: 2025-10-17T18:52:41.900Z
 
 # Weekly Meetup — Tallinna Polütehnikum
 
-> **IMPORTANT** The school is closed the rest of June and July! If this should change then this notice will be updated!
-{.is-danger}
+> **For info** The meetings at the school are starting this wednesday, 2. sept!
+>
+{.is-info}
 
 
-Every **Tuesday at 18:00**, radio enthusiasts gather at **Tallinna Polütehnikum** to chat, hang out, share experiences, and help each other out.  
+
+Every **TBD ~~Tuesday~~ at 18:00**, radio enthusiasts gather at **Tallinna Polütehnikum** to chat, hang out, share experiences, and help each other out.  
 You’ll meet all kinds of radio hobbyists, including several active **Meshtastic** users!
 
 ---
