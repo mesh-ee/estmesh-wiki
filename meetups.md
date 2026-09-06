@@ -2,18 +2,13 @@
 title: Meetups
 description: 
 published: true
-date: 2026-08-30T08:28:18.694Z
+date: 2026-09-06T19:53:40.308Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-17T18:52:41.900Z
 ---
 
 # Weekly Meetup — Tallinna Polütehnikum
-
-> **For info** The meetings at the school are starting this wednesday, 2. sept!
->
-{.is-info}
-
 
 
 Every **TBD ~~Tuesday~~ at 18:00**, radio enthusiasts gather at **Tallinna Polütehnikum** to chat, hang out, share experiences, and help each other out.  
