@@ -2,13 +2,16 @@
 title: Meetups
 description: 
 published: true
-date: 2026-09-06T19:53:40.308Z
+date: 2026-09-06T19:55:01.290Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-17T18:52:41.900Z
 ---
 
 # Weekly Meetup — Tallinna Polütehnikum
+
+> Tiit ling is the organizer for the meetups, a weekly meeting day is yet to be decided.
+{.is-info}
 
 
 Every **TBD ~~Tuesday~~ at 18:00**, radio enthusiasts gather at **Tallinna Polütehnikum** to chat, hang out, share experiences, and help each other out.  
