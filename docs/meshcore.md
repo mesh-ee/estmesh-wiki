@@ -16,7 +16,7 @@ Setup is straightforward if you are using the companion app.
 
 That preset sets transmit power to **22 dBm**. Your device may allow higher power - check its manual.
 
-In **Experimental Settings**, set **Default Region Scope** to `ee`. You can override this per channel and add extra scopes if needed.
+Also, set **Default Region Scope** to `ee` so we don't flood our neighbors with chatter they don't understand 😅 You can override this per channel and add extra scopes if needed.
 
 > 💡 **Tip**
 > MeshMapper also uses **Default Region Scope**, so all packets you send will use it. If you travel, reset it.
