@@ -2,7 +2,7 @@
 title: Meetups
 description: 
 published: true
-date: 2026-09-07T13:42:11.435Z
+date: 2026-09-07T13:43:07.034Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-17T18:52:41.900Z
@@ -10,7 +10,7 @@ dateCreated: 2025-10-17T18:52:41.900Z
 
 # Weekly Meetup — Tallinna Polütehnikum
 
-> Tiit ling is the organizer for the meetups, a weekly meeting day is yet to be decided.
+> The weekly meeting day has been changed to **Wednesdays** instead of Tuesdays
 {.is-info}
 
 
