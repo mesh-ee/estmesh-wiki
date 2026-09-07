@@ -2,7 +2,7 @@
 title: Meetups
 description: 
 published: true
-date: 2026-09-06T19:55:01.290Z
+date: 2026-09-07T13:42:11.435Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-17T18:52:41.900Z
@@ -14,7 +14,7 @@ dateCreated: 2025-10-17T18:52:41.900Z
 {.is-info}
 
 
-Every **TBD ~~Tuesday~~ at 18:00**, radio enthusiasts gather at **Tallinna Polütehnikum** to chat, hang out, share experiences, and help each other out.  
+Every **Wednesday at 18:00**, radio enthusiasts gather at **Tallinna Polütehnikum** to chat, hang out, share experiences, and help each other out.  
 You’ll meet all kinds of radio hobbyists, including several active **Meshtastic** users!
 
 ---
