@@ -41,6 +41,7 @@ set dutycycle 10
 set path.hash.mode 1
 set advert.interval 0
 set flood.advert.interval 24
+set loop.detect moderate
 region default ee
 
 region put harjumaa
@@ -52,6 +53,9 @@ clock sync
 
 > 💡 **Tip**
 > Do `clock sync` after each reboot to ensure proper network operation.
+
+> 💡 **Tip**
+> If your repeater is close to other repeaters (<1km), consider enabling CAD (Channel Activity Detection) with `set cad on` and increasing `txdelay` to reduce the probability of causing interference.
 
 # Useful links
 
