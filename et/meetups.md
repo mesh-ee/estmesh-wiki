@@ -2,7 +2,7 @@
 title: meetups
 description: 
 published: true
-date: 2026-03-27T13:07:21.681Z
+date: 2026-09-07T13:44:41.701Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-18T08:14:16.768Z
@@ -10,14 +10,14 @@ dateCreated: 2025-10-18T08:14:16.768Z
 
 # Iganädalane kohtumine — Tallinna Polütehnikum
 
-Igal **teisipäeval kell 18:00** kogunevad raadiohuvilised **Tallinna Polütehnikumis**, et vestelda, aega veeta, kogemusi jagada ja üksteist aidata.  
+Igal **Kolmapäeval kell 18:00** kogunevad raadiohuvilised **Tallinna Polütehnikumis**, et vestelda, aega veeta, kogemusi jagada ja üksteist aidata.  
 Kohal on igasuguseid raadioside huvilisi, sealhulgas mitmeid aktiivseid **Meshtasticu** kasutajaid!
 
 ---
 
 ## 📅 Ürituse info
 
-**🕕 Aeg:** Iga teisipäev kell 18:00  
+**🕕 Aeg:** Iga Kolmapäeval kell 18:00  
 **🏫 Asukoht:** Tallinna Polütehnikum, ruum A414 (4. korrus)  
 **🚗 Väravatelefon:** Number on nähtav värava juures.  
 `NB: 
