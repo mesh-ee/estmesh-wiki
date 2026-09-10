@@ -2,13 +2,13 @@
 title: Meetups
 description: 
 published: true
-date: 2026-09-10T08:40:05.476Z
+date: 2026-09-10T08:47:53.063Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-17T18:52:41.900Z
 ---
 
-# Weekly Meetup — Tallinna Polütehnikum
+# Weekly Meetup — Techno TLN
 
 > The weekly meeting day has been changed to **Wednesdays** instead of Tuesdays
 The schools name has also been changed (Previously known as)~~Tallinna Polütehnikum~~ 
