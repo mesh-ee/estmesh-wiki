@@ -2,7 +2,7 @@
 title: Meetups
 description: 
 published: true
-date: 2026-09-07T13:44:59.922Z
+date: 2026-09-10T08:40:05.476Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-17T18:52:41.900Z
@@ -11,10 +11,12 @@ dateCreated: 2025-10-17T18:52:41.900Z
 # Weekly Meetup — Tallinna Polütehnikum
 
 > The weekly meeting day has been changed to **Wednesdays** instead of Tuesdays
+The schools name has also been changed (Previously known as)~~Tallinna Polütehnikum~~ 
 {.is-info}
 
 
-Every **Wednesday at 18:00**, radio enthusiasts gather at **Tallinna Polütehnikum** to chat, hang out, share experiences, and help each other out.  
+Every **Wednesday at 18:00**, radio enthusiasts gather at **Tallinn College of Technology**,
+to chat, hang out, share experiences, and help each other out.  
 You’ll meet all kinds of radio hobbyists, including several active **Meshtastic** users!
 
 ---
@@ -22,7 +24,7 @@ You’ll meet all kinds of radio hobbyists, including several active **Meshtasti
 ## 📅 Event Info
 
 **🕕 Time:** Every Wednesday at 18:00  
-**🏫 Location:** Tallinna Polütehnikum, Room A-414 / A-415 (4th floor)  
+**🏫 Location:** Techno TLN, Room A-414 / A-415 (4th floor)  
 **🚗 Gate phone:** Number is visible on the gate itself.
 `tip: 
 If you’re driving, let the person on the phone know you’re "visiting the radio group".`
