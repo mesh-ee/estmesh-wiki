@@ -2,13 +2,13 @@
 title: meetups
 description: 
 published: true
-date: 2026-09-10T08:46:14.069Z
+date: 2026-09-10T08:48:13.884Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-18T08:14:16.768Z
 ---
 
-# Iganädalane kohtumine — Tallinna Polütehnikum
+# Iganädalane kohtumine — Techno TLN
 > Nädala koosoleku päev on muudetud kolmapäevadeks teisipäevade asemel.
 Kooli nimi on samuti muudetud (Varem tuntud kui)~~Tallinna Polütehnikum~~
 {.is-info}
