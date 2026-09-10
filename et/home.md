@@ -2,7 +2,7 @@
 title: Kodu
 description: 
 published: true
-date: 2025-10-18T08:08:27.952Z
+date: 2026-09-10T08:42:51.802Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-17T17:35:55.917Z
@@ -10,6 +10,10 @@ dateCreated: 2025-10-17T17:35:55.917Z
 
 # Meshtastic Eesti
 Tere tulemast Meshtastic Eesti wikise! Siit leiad kasulikku teavet ja ressursse Meshtastic kogukonna kohta Eestis.
+
+> [kohtumistele](/et/meetups) tehtud uuendus 10.09.2026
+{.is-info}
+
 
 ## Kasulikud lingid
 #### Dashboards
